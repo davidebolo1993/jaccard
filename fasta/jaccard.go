@@ -9,6 +9,12 @@ import (
 	"gonum.org/v1/gonum/stat/combin"
 )
 
+
+/*
+a couple of functions are adapted from excellent https://github.com/hbollon/go-edlib
+*/
+
+
 func Shingle(s string, k int) []string {
 
 	/*
